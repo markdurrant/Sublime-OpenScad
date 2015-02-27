@@ -1,5 +1,5 @@
-#Sublime-OpenScad
+# Sublime OpenScad
 
 [OpenScad](http://www.openscad.org) language syntax package for SublimeText.
 
-File extension: ```.scad```
+Based on [tralamazza/Sublime-OpenScad](https://github.com/tralamazza/Sublime-OpenScad)
