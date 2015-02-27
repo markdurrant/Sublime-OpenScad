@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[sphere( d = ${1:1} );]]></content>
+	<content><![CDATA[\$fn = ${1:6}]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>sphere</tabTrigger>
+	<tabTrigger>fn</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scad</scope>
 </snippet>
