@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[scale( [${1:1}, ${2:1}, ${3:1}]) ]]></content>
+	<content><![CDATA[scale( [${1:1}, ${2:1}, ${3:1}] ) ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>scale</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
