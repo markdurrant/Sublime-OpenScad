@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[mirror( [${1:0}, ${2:0}, ${3:0}] )]]></content>
+	<content><![CDATA[color( "$1" )]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mir</tabTrigger>
+	<tabTrigger>color</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.scad</scope>
 </snippet>
