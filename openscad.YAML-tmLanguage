@@ -93,11 +93,17 @@ repository:
       match: \b(abs|ceil|exp|floor|ln|len|log|lookup|max|min|norm|pow|rands|round|sign|sqrt)\b
     - name: support.function.transformations.scad
       match: \b(scale|resize|rotate|translate|mirror|multmatrix|color|minkowski|hull)\b
-    - name: support.function.primitives.scad
+    - name: support.function.2d-primitives.scad
+      match: \b(circle|square|polygon|text)\b
+    - name: support.function.3d-primitives.scad
       match: \b(cube|cylinder|polyhedron|sphere)\b
     - name: support.function.csg.scad
       match: \b(union|difference|intersection|render)\b
     - name: support.function.import.scad
       match: \b(import)\b
+    - name: support.function.include.scad
+      match: \b(include)\b
+    - name: support.function.use.scad
+      match: \b(use)\b
 
 ...

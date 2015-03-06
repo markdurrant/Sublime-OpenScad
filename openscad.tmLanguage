@@ -292,9 +292,15 @@
 				</dict>
 				<dict>
 					<key>match</key>
+					<string>\b(circle|square|polygon|text)\b</string>
+					<key>name</key>
+					<string>support.function.2d-primitives.scad</string>
+				</dict>
+				<dict>
+					<key>match</key>
 					<string>\b(cube|cylinder|polyhedron|sphere)\b</string>
 					<key>name</key>
-					<string>support.function.primitives.scad</string>
+					<string>support.function.3d-primitives.scad</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -307,6 +313,18 @@
 					<string>\b(import)\b</string>
 					<key>name</key>
 					<string>support.function.import.scad</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(include)\b</string>
+					<key>name</key>
+					<string>support.function.include.scad</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(use)\b</string>
+					<key>name</key>
+					<string>support.function.use.scad</string>
 				</dict>
 			</array>
 		</dict>
